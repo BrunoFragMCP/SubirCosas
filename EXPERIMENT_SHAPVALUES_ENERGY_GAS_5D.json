@@ -1,13 +1,13 @@
 {
-  "run_name": "EXPERIMENT_SHAPVALUES_ENERGY_5D",
+  "run_name": "EXPERIMENT_SHAPVALUES_ENERGY_GAS_5D",
   "experiment_name": "shapvalues_energy_experiment",
-  "YHAT_NAME": "EXPERIMENT_SHAPVALUES_ENERGY_5D",
-  "frozen_lib": "FL_20260112_ENERGY",
+  "YHAT_NAME": "EXPERIMENT_SHAPVALUES_ENERGY_GAS_5D",
+  "frozen_lib": "FL_20260519",
   "target_trade": "DIRECTIONAL_RETURNS_TARGETS_VOL_NORM_OIM_5D",
   "target_focus": "TARGET_VOL_NORM_RETURN_OIM_5D",
   "target_focus_obs": "TARGET_DATE_OBS_VOL_NORM_RETURN_OIM_5D",
   "data_override": 0,
-  "sector_run": "ENERGY",
+  "sector_run": "ENERGY_GAS",
   "data_location": "snow",
   "features_skip": "new_features_skip",
   "running_config": {
@@ -180,7 +180,7 @@
   },
   "feature_sets": {
     "TARGET": {
-      "TABLES": "DIRECTIONAL_RETURNS_TARGETS_VOL_NORM_OIM_22D",
+      "TABLES": "DIRECTIONAL_RETURNS_TARGETS_VOL_NORM_OIM_5D",
       "INDEX": [
         "DATE",
         "TRADE_ID"
